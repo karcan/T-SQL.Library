@@ -2,9 +2,9 @@
 -- Author:				<Ozbal, Karcan>
 -- Create date:			<2022-12-20 yyyyMMdd>
 -- Description:			<Stop Watch Start>
--- Execution script:	EXEC StopWatchStop @pStopWatch = @vStopWatch, @pElapsedMS = @vElapsedMS OUTPUT, @pElapsedTime = @vElapsedTime OUTPUT
+-- Execution script:	EXEC SP_StopWatchStop @pStopWatch = @vStopWatch, @pElapsedMS = @vElapsedMS OUTPUT, @pElapsedTime = @vElapsedTime OUTPUT
 -- =============================================
-CREATE PROCEDURE [dbo].[StopWatchStart]
+CREATE PROCEDURE [dbo].[SP_StopWatchStart]
 AS
 BEGIN
 	DECLARE @vStart		DATETIME2(7)	= SYSUTCDATETIME(),

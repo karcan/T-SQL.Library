@@ -61,8 +61,8 @@
     <Folder Include="Stored Procedures\Scalar" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Stored Procedures\Scalar\dbo.StopWatchStart.sql" />
-    <Build Include="Stored Procedures\Scalar\dbo.StopWatchStop.sql" />
+    <Build Include="Stored Procedures\Scalar\dbo.SP_StopWatchStart.sql" />
+    <Build Include="Stored Procedures\Scalar\dbo.SP_StopWatchStop.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pinch of T-SQL.publish.xml" />

@@ -3,9 +3,9 @@
 -- Create date:			<2022-12-20 yyyyMMdd>
 -- Description:			<Stop Watch Stop>
 -- Execution script:	DECLARE @vStopWatch INT, @vElapsedMS INT, @vElapsedTime TIME(7);
---						EXEC @vStopWatch = StopWatchStart
+--						EXEC @vStopWatch = SP_StopWatchStart
 -- =============================================
-CREATE PROCEDURE [dbo].[StopWatchStop]
+CREATE PROCEDURE [dbo].[SP_StopWatchStop]
 	@pStopWatch		INT,
 	@pElapsedMS		INT		= NULL	OUTPUT,
 	@pElapsedTime	TIME(7)	= NULL	OUTPUT
